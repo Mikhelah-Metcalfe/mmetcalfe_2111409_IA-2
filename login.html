@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Mela-Plus — Login | Mikhelah Metcalfe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top bar: brand centered + action links right-aligned -->
+    <div class="top-brand-bar">
+        <div class="bar-container">
+            <div class="bar-left"></div>
+            
+            <!-- Centered brand name -->
+            <div class="brand-center">
+                <h2 class="mela-logo">Mela-Plus</h2>
+            </div>
+            
+            <!-- Right-aligned action links (Cart, Register, Login) -->
+            <div class="actions-right">
+                <a href="registration.html" class="action-btn register-btn">
+                    <span>Register</span>
+                </a>
+                <a href="login.html" class="action-btn login-btn nav-link active">
+                    <span>Login</span>
+                </a>
+                <a href="cart.html" class="action-btn cart-btn">
+                    <span>Cart</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- navigation bar (centered links) -->
+    <nav class="navbar-full">
+        <div class="nav-inner">
+            <ul class="nav-list">
+                <li><a href="ai-2.html" class="nav-link">Home</a></li>
+                <li><a href="product.html" class="nav-link">Products</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+       <main class="main-content">
+            <div class="container">
+    <!-- Title section -->
+    <div class="title">Login</div>       
+            <form id="loginForm">
+                <div class="form-group">
+                    <label><i class="fas fa-user"></i> Username or Email</label>
+                    <input type="text" id="loginUsername" placeholder="Enter your username" required>
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-key"></i> Password</label>
+                    <input type="password" id="loginPassword" placeholder="Enter your password" required>
+                </div>
+                <div id="loginError" class="error-message"></div>
+                <button type="submit" class="btn-primary">Login <i class="fas fa-arrow-right"></i></button>
+                <p class="form-footer">Don't have an account? <a href="registration.html">Register here</a></p>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Mela-Plus — Your Shopping Cart | Mikhelah Metclafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top bar: brand centered + action links right-aligned -->
+    <div class="top-brand-bar">
+        <div class="bar-container">
+            <div class="bar-left"></div>
+            
+            <!-- Centered brand name -->
+            <div class="brand-center">
+                <h2 class="mela-logo">Mela-Plus</h2>
+            </div>
+            
+            <!-- Right-aligned action links (Cart, Register, Login) -->
+            <div class="actions-right">
+                <a href="registration.html" class="action-btn register-btn">
+                    <span>Register</span>
+                </a>
+                <a href="login.html" class="action-btn login-btn">
+                    <span>Login</span>
+                </a>
+                <a href="cart.html" class="action-btn cart-btn nav-link active">
+                    <span>Cart</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- navigation bar (centered links) -->
+    <nav class="navbar-full">
+        <div class="nav-inner">
+            <ul class="nav-list">
+                <li><a href="ai-2.html" class="nav-link">Home</a></li>
+                <li><a href="product.html" class="nav-link">Products</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Cart Main Content -->
+    <main class="cart-main">
+        <div class="page-header">
+            <h1>Your Shopping Cart</h1>
+            <p>Review your selected beauty essentials</p>
+            <div class="page-divider"></div>
+        </div>
+
+        <div class="cart-container" id="cartContainer">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+
+        <div class="cart-actions">
+            <button class="btn-clear" id="clearCartBtn">
+                <i class="fas fa-trash-alt"></i> Clear All
+            </button>
+            <button class="btn-checkout" id="checkoutBtn">
+                Proceed to Checkout <i class="fas fa-arrow-right"></i>
+            </button>
+            <button class="btn-close" id="closeBtn">
+                <i class="fas fa-times"></i> Close
+            </button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
