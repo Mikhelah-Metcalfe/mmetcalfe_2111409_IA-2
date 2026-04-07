@@ -638,7 +638,7 @@ if (document.getElementById('loginForm')) {
             
             // Redirect to home page after delay
             setTimeout(() => { 
-                window.location.href = 'ai-2.html'; 
+                window.location.href = 'index.html'; 
             }, 1200);
         });
     });
