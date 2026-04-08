@@ -1,10 +1,8 @@
 /* ==============================================
-   MELA-PLUS MASTER JAVASCRIPT
-   Organized by module: Cart Core, Products, Cart Page, Checkout, Login
-   All duplicate functions consolidated into shared core
+   MELA-PLUS- JAVASCRIPT
    ============================================== */
 
-// ========== SHARED CONSTANTS & CORE FUNCTIONS ==========
+// ========== CONSTANTS & CORE FUNCTIONS ==========
 const CART_STORAGE_KEY = 'melaPlusCart';
 
 // Get cart from localStorage
