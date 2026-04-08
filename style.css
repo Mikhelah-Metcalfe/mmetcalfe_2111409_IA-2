@@ -569,6 +569,16 @@ form .category label {
 
 form .category label:hover { color: #c44d7a; transform: translateX(2px); }
 
+/* Radio button checked state */
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three,
+input[type="radio"]:checked + .dot {
+  background: #e87da8 !important;
+  border-color: #e87da8 !important;
+  box-shadow: inset 0 0 0 3px white;
+}
+
 form .category label .dot {
     height: 18px;
     width: 18px;
